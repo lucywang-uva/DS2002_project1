@@ -13,7 +13,7 @@ import os
 import csv
 import pandas as pd
 
-os.getcwd()
+#os.getcwd()
 
 
 try:
