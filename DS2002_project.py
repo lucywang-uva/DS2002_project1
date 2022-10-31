@@ -18,7 +18,7 @@ import pandas as pd
 
 try:
     #retreive local file
-    file = pd.read_csv("avocado.csv") #reads data file --> path to csv file from current directory
+    file = pd.read_csv("Documents/avocado.csv") #reads data file --> path to csv file from current directory
     file2 = file.rename(columns={"Unnamed: 0": "index"}) #rename first column that is unnamed
       
     try:
